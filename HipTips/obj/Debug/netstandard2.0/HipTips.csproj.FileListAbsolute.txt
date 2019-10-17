@@ -1,0 +1,14 @@
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/bin/Debug/netstandard2.0/HipTips.deps.json
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/bin/Debug/netstandard2.0/HipTips.dll
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/bin/Debug/netstandard2.0/HipTips.pdb
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/ShiftDetailPage.xaml.g.cs
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/ShiftListView.xaml.g.cs
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/ShiftPage.xaml.g.cs
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/HipTips.csproj.CoreCompileInputs.cache
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/HipTips.AssemblyInfoInputs.cache
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/HipTips.AssemblyInfo.cs
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/HipTips.dll
+/Users/ptumulty/Documents/Visual Studios/HipTips/HipTips/obj/Debug/netstandard2.0/HipTips.pdb

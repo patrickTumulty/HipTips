@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HipTips.ShiftDetailPage">
+    <ContentPage.Content>
+        <Grid Padding="50, 50">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Text="{Binding Tips}" Grid.Row="0" Grid.ColumnSpan="2"
+                   Scale="4" VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Hours Worked:" Grid.Row="2" Grid.Column="0" 
+                   FontSize="Medium"/>
+            <Label Text="{Binding HoursWorked}" Grid.Row="2" Grid.Column="1" 
+                   HorizontalOptions="End"
+                   FontSize="Medium"/>
+            <Label Text="Hourly:" Grid.Row="3" Grid.Column="0" FontSize="Medium"/>
+            <Label Text="{Binding Hourly}" Grid.Row="3" Grid.Column="1" 
+                   HorizontalOptions="End"
+                   FontSize="Medium"/>
+            <Label Text="{Binding ShiftDate.DayOfWeek}" Grid.Row="4" Grid.ColumnSpan="2" 
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   Scale="4"
+                   />
+            <Label Text="{Binding ShiftDate.Date}" Grid.Row="5" Grid.ColumnSpan="2"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   Scale="1.5"
+                    />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HipTips.ShiftListView">
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding}" ItemTapped="nav_ShiftDetail" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell> 
+                        <Grid Padding="10, 10" BackgroundColor="#b4daf1" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/> 
+                                <ColumnDefinition/> 
+                                <ColumnDefinition/> 
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding ShiftDate.DayOfWeek}" Grid.Row="0" Grid.Column="0" 
+                                   TextColor="Black" />
+                            <Label Text="{Binding ShiftDate.Date}" Grid.Row="0" Grid.Column="1" 
+                                   TextColor="White"/>
+                            <Label Text="{Binding Tips}" Grid.Row="0" Grid.Column="2" 
+                                   TextColor="Black"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
